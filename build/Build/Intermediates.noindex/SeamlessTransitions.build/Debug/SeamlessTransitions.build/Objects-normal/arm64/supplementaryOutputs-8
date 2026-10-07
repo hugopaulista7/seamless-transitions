@@ -1,0 +1,23 @@
+{
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitions/Analysis/SilenceDetector.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/SilenceDetector.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/SilenceDetector.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/SilenceDetector.dia",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/SilenceDetector.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/SilenceDetector.swiftdeps"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitions/Analysis/TempoEstimator.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TempoEstimator.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TempoEstimator.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TempoEstimator.dia",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TempoEstimator.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TempoEstimator.swiftdeps"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitions/UI/SettingsBar.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/SettingsBar.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/SettingsBar.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/SettingsBar.dia",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/SettingsBar.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/SettingsBar.swiftdeps"
+  }
+}

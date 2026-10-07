@@ -1,0 +1,58 @@
+name: SeamlessTransitions
+options:
+  bundleIdPrefix: com.hugopaulista
+  deploymentTarget:
+    macOS: "15.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    SWIFT_DEFAULT_ACTOR_ISOLATION: nonisolated
+    MACOSX_DEPLOYMENT_TARGET: "15.0"
+    CODE_SIGN_IDENTITY: "-"
+    CODE_SIGN_STYLE: Manual
+    DEVELOPMENT_TEAM: ""
+targets:
+  SeamlessTransitions:
+    type: application
+    platform: macOS
+    sources: [SeamlessTransitions]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.hugopaulista.SeamlessTransitions
+        PRODUCT_NAME: SeamlessTransitions
+        ENABLE_HARDENED_RUNTIME: YES
+        CODE_SIGN_ENTITLEMENTS: SeamlessTransitions/App/SeamlessTransitions.entitlements
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Seamless Transitions
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.music
+        INFOPLIST_KEY_NSHumanReadableCopyright: ""
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+      configs:
+        Debug:
+          # Debug bake runs near realtime at -Onone (resampler); keep symbols but optimise.
+          SWIFT_OPTIMIZATION_LEVEL: "-O"
+          # Without the Debug dylib split, hardened-runtime library validation rejects the ad-hoc test bundle.
+          ENABLE_HARDENED_RUNTIME: NO
+  SeamlessTransitionsTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources: [SeamlessTransitionsTests]
+    dependencies:
+      - target: SeamlessTransitions
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.hugopaulista.SeamlessTransitionsTests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/SeamlessTransitions.app/Contents/MacOS/SeamlessTransitions"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+schemes:
+  SeamlessTransitions:
+    build:
+      targets:
+        SeamlessTransitions: all
+        SeamlessTransitionsTests: [test]
+    test:
+      targets: [SeamlessTransitionsTests]

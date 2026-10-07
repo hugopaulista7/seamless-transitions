@@ -1,0 +1,139 @@
+{
+  "" : {
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/SeamlessTransitionsTests-primary.dia",
+    "emit-module-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/SeamlessTransitionsTests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/SeamlessTransitionsTests-primary-emit-module.dia",
+    "pch" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/SeamlessTransitionsTests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/SeamlessTransitionsTests-primary.swiftdeps"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitionsTests/AnalysisCacheTests.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/AnalysisCacheTests.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/AnalysisCacheTests.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/AnalysisCacheTests.dia",
+    "index-unit-output-path" : "/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/AnalysisCacheTests.o",
+    "llvm-bc" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/AnalysisCacheTests.bc",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/AnalysisCacheTests.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/AnalysisCacheTests.swiftdeps",
+    "swiftmodule" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/AnalysisCacheTests~partial.swiftmodule"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitionsTests/BandSplitterTests.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/BandSplitterTests.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/BandSplitterTests.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/BandSplitterTests.dia",
+    "index-unit-output-path" : "/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/BandSplitterTests.o",
+    "llvm-bc" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/BandSplitterTests.bc",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/BandSplitterTests.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/BandSplitterTests.swiftdeps",
+    "swiftmodule" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/BandSplitterTests~partial.swiftmodule"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitionsTests/BeatAnalyzerTests.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/BeatAnalyzerTests.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/BeatAnalyzerTests.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/BeatAnalyzerTests.dia",
+    "index-unit-output-path" : "/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/BeatAnalyzerTests.o",
+    "llvm-bc" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/BeatAnalyzerTests.bc",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/BeatAnalyzerTests.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/BeatAnalyzerTests.swiftdeps",
+    "swiftmodule" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/BeatAnalyzerTests~partial.swiftmodule"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitionsTests/EngineBodyLimitTests.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/EngineBodyLimitTests.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/EngineBodyLimitTests.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/EngineBodyLimitTests.dia",
+    "index-unit-output-path" : "/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/EngineBodyLimitTests.o",
+    "llvm-bc" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/EngineBodyLimitTests.bc",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/EngineBodyLimitTests.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/EngineBodyLimitTests.swiftdeps",
+    "swiftmodule" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/EngineBodyLimitTests~partial.swiftmodule"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitionsTests/FolderScannerTests.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/FolderScannerTests.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/FolderScannerTests.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/FolderScannerTests.dia",
+    "index-unit-output-path" : "/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/FolderScannerTests.o",
+    "llvm-bc" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/FolderScannerTests.bc",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/FolderScannerTests.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/FolderScannerTests.swiftdeps",
+    "swiftmodule" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/FolderScannerTests~partial.swiftmodule"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitionsTests/PlayOrderTests.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/PlayOrderTests.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/PlayOrderTests.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/PlayOrderTests.dia",
+    "index-unit-output-path" : "/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/PlayOrderTests.o",
+    "llvm-bc" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/PlayOrderTests.bc",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/PlayOrderTests.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/PlayOrderTests.swiftdeps",
+    "swiftmodule" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/PlayOrderTests~partial.swiftmodule"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitionsTests/SilenceDetectorTests.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/SilenceDetectorTests.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/SilenceDetectorTests.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/SilenceDetectorTests.dia",
+    "index-unit-output-path" : "/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/SilenceDetectorTests.o",
+    "llvm-bc" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/SilenceDetectorTests.bc",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/SilenceDetectorTests.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/SilenceDetectorTests.swiftdeps",
+    "swiftmodule" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/SilenceDetectorTests~partial.swiftmodule"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitionsTests/TempoRampTests.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TempoRampTests.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TempoRampTests.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TempoRampTests.dia",
+    "index-unit-output-path" : "/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TempoRampTests.o",
+    "llvm-bc" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TempoRampTests.bc",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TempoRampTests.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TempoRampTests.swiftdeps",
+    "swiftmodule" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TempoRampTests~partial.swiftmodule"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitionsTests/TestAudioFactory.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TestAudioFactory.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TestAudioFactory.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TestAudioFactory.dia",
+    "index-unit-output-path" : "/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TestAudioFactory.o",
+    "llvm-bc" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TestAudioFactory.bc",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TestAudioFactory.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TestAudioFactory.swiftdeps",
+    "swiftmodule" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TestAudioFactory~partial.swiftmodule"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitionsTests/TrackAnalyzerTests.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TrackAnalyzerTests.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TrackAnalyzerTests.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TrackAnalyzerTests.dia",
+    "index-unit-output-path" : "/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TrackAnalyzerTests.o",
+    "llvm-bc" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TrackAnalyzerTests.bc",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TrackAnalyzerTests.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TrackAnalyzerTests.swiftdeps",
+    "swiftmodule" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TrackAnalyzerTests~partial.swiftmodule"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitionsTests/TransitionEnvelopeTests.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TransitionEnvelopeTests.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TransitionEnvelopeTests.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TransitionEnvelopeTests.dia",
+    "index-unit-output-path" : "/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TransitionEnvelopeTests.o",
+    "llvm-bc" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TransitionEnvelopeTests.bc",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TransitionEnvelopeTests.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TransitionEnvelopeTests.swiftdeps",
+    "swiftmodule" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TransitionEnvelopeTests~partial.swiftmodule"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitionsTests/TransitionPlannerBakerTests.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TransitionPlannerBakerTests.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TransitionPlannerBakerTests.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TransitionPlannerBakerTests.dia",
+    "index-unit-output-path" : "/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TransitionPlannerBakerTests.o",
+    "llvm-bc" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TransitionPlannerBakerTests.bc",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TransitionPlannerBakerTests.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TransitionPlannerBakerTests.swiftdeps",
+    "swiftmodule" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/TransitionPlannerBakerTests~partial.swiftmodule"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitionsTests/VarispeedResamplerTests.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/VarispeedResamplerTests.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/VarispeedResamplerTests.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/VarispeedResamplerTests.dia",
+    "index-unit-output-path" : "/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/VarispeedResamplerTests.o",
+    "llvm-bc" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/VarispeedResamplerTests.bc",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/VarispeedResamplerTests.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/VarispeedResamplerTests.swiftdeps",
+    "swiftmodule" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitionsTests.build/Objects-normal/arm64/VarispeedResamplerTests~partial.swiftmodule"
+  }
+}

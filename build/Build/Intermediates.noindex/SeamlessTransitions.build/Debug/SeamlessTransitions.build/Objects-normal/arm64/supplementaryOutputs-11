@@ -1,0 +1,23 @@
+{
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitions/Model/TrimInfo.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TrimInfo.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TrimInfo.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TrimInfo.dia",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TrimInfo.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TrimInfo.swiftdeps"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitions/Playback/TransitionPlanner.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TransitionPlanner.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TransitionPlanner.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TransitionPlanner.dia",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TransitionPlanner.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TransitionPlanner.swiftdeps"
+  },
+  "/Users/hugopaulista/projetos/seamless-transitions/SeamlessTransitions/UI/TransportBar.swift" : {
+    "const-values" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TransportBar.swiftconstvalues",
+    "dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TransportBar.d",
+    "diagnostics" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TransportBar.dia",
+    "object" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TransportBar.o",
+    "swift-dependencies" : "/Users/hugopaulista/projetos/seamless-transitions/build/Build/Intermediates.noindex/SeamlessTransitions.build/Debug/SeamlessTransitions.build/Objects-normal/arm64/TransportBar.swiftdeps"
+  }
+}

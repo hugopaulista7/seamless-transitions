@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B26FA88F680230F77205A1 /* TrackAnalyzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219F20E874C0F506B475000 /* TrackAnalyzerTests.swift */; };
+		19D1213538E3C6A5FD095404 /* SilenceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A7346F7A2E7AF4779842FF /* SilenceDetector.swift */; };
+		1A82DE0494A3925EF0963D45 /* VarispeedResampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876BED11D4AFAF1C3C2E01D /* VarispeedResampler.swift */; };
+		22C4FA65DBE582499824C9D6 /* TransitionEnvelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF786754C5F30131A4A1F882 /* TransitionEnvelope.swift */; };
+		25D6E986FDE271B764E8F385 /* GapMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22A8657B40879D5091C400C /* GapMonitor.swift */; };
+		2774E2B31472DCCC0763517D /* FolderAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160946AE2ACA40E767A9FE22 /* FolderAccess.swift */; };
+		3B0910AD129708F85FFEA51F /* AnalysisCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65125E463055030F02EC7EEF /* AnalysisCacheTests.swift */; };
+		3EDD0DA36DF6C1DF677239E4 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AD05767A8527ACE139136D /* Track.swift */; };
+		3EF782E1BEF941A0AEF55E85 /* BeatAnalyzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713349EDB08D4EE49AE1057 /* BeatAnalyzerTests.swift */; };
+		41A2574075DFE8488F4E82E9 /* VarispeedResamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BECAC583DD66B3EA6E9A4E /* VarispeedResamplerTests.swift */; };
+		4480C79D072918BFF3FDF43D /* PlaybackEngine+Ramps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1B16FC72ABCD86528BF6D4 /* PlaybackEngine+Ramps.swift */; };
+		521BF79A073C23BC11549206 /* BeatAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F32743879FBA37AB1D069DA /* BeatAnalyzer.swift */; };
+		5997FF98767E28489BEA3690 /* FolderScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34D3D6B3C9CE32E7A3CCAD3 /* FolderScannerTests.swift */; };
+		5B5CF4A536FD9B8E6175F4A6 /* PlaybackEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B3E86FFFBCCEA7CBE70E52 /* PlaybackEngine.swift */; };
+		62E084C023CB91521DCB75D5 /* SilenceDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CC8B054A6189EA78DF45E7 /* SilenceDetectorTests.swift */; };
+		6E7C409E93AE314132BD3DE9 /* SettingsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668A1E4F128F936F5CDDD191 /* SettingsBar.swift */; };
+		7134D38C7AE1EEF8C108073F /* TempoRamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8D6DA345ABEB09F3919E41 /* TempoRamp.swift */; };
+		74069A1E7C51D6634DCC7B68 /* EngineBodyLimitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3578CD4024D0665D40C945FF /* EngineBodyLimitTests.swift */; };
+		79E108440E6C5C3C873BC994 /* TempoEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D95593651C711DE3B9FC73E /* TempoEstimator.swift */; };
+		810584A70E5B4DECE2D1394A /* TransitionBaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A150AFD42383FA703825FC /* TransitionBaker.swift */; };
+		8E7B09DC6581A2390E4B66CD /* TransportBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083F2B6D5C8611A99EE8EC8 /* TransportBar.swift */; };
+		9826C124AE3F9EFC42C1659A /* TransitionEnvelopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D933F9E7CFBAD29490B417E2 /* TransitionEnvelopeTests.swift */; };
+		992B3F7879594EB125A004AD /* TrimInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B57D14AD0D9CCD2A56969B /* TrimInfo.swift */; };
+		9E494A77D65C5951DD11B333 /* SeamlessTransitionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB1C9BA27753A464BC0E599 /* SeamlessTransitionsApp.swift */; };
+		A5BD68C0180F3C42EFE3A23F /* TransitionPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BDFA5339CED68CAE714D1E /* TransitionPlanner.swift */; };
+		A89396933E45EEA33E7A4EF4 /* OnsetEnvelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703C4C128F0BB5802DD3365B /* OnsetEnvelope.swift */; };
+		A99AC10464EC4B441E8D5A74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8F8371541954DF5BD1AF8 /* ContentView.swift */; };
+		AD315C1799690CDF9555BB7A /* TestAudioFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A10F8412BD2C7DD965E24 /* TestAudioFactory.swift */; };
+		AF08235FA9E11022690183F9 /* BeatTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FDE18537C8947E592481B6 /* BeatTracker.swift */; };
+		BA0FACDE21D7882D8BD0B9B0 /* EngineTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5315BA215A98FD0B4AF2AA50 /* EngineTypes.swift */; };
+		C460F8B1C7FB004F5CB077A5 /* Voice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9ABDA4A883662D5AEE40F1A /* Voice.swift */; };
+		C58F2E46C442BE561980E1D0 /* PlayOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88BD28BC821DF0B46B5B99 /* PlayOrder.swift */; };
+		C6DEAD7A13E175DAFFC2E9B1 /* MetadataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E52F5DEBADD407F2753D1 /* MetadataLoader.swift */; };
+		CA55A3ED5CBBB97573F4C243 /* PlaybackClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492156510E63B67E948EC6F /* PlaybackClock.swift */; };
+		CF0684A2BF4DB13AAEB93E5B /* TransitionPlannerBakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A780F8E6C41B97998BC18F17 /* TransitionPlannerBakerTests.swift */; };
+		D604C7E505CE15EDD2FA4922 /* BeatInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D670C93D866EA487947C35 /* BeatInfo.swift */; };
+		D74EDBAA4211A900ED2818AF /* PlayOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E9C75E602801C7CDDF08C9 /* PlayOrderTests.swift */; };
+		DF8F7BBC9DFCEAC1419A5C11 /* PlaybackEngine+Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C955FD6404D4CCAA1D9FE0 /* PlaybackEngine+Transport.swift */; };
+		E0B29D47E16F0A4E468D9880 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41EDCC1E09E313C16474907 /* PlayerViewModel.swift */; };
+		E18C093B468858E1916EDA03 /* FolderScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E84C544E639373D48C6DFD3 /* FolderScanner.swift */; };
+		EB16F04B3F8CF160C2F52372 /* PlaybackEngine+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB712190522700AD81BC0AF9 /* PlaybackEngine+Transition.swift */; };
+		EF36F2D970016D0C2C7ED046 /* BandSplitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F94608F4703E95D367EEEA /* BandSplitterTests.swift */; };
+		F03CE82B00D5CE6D3A07880D /* TrackAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0368D21C3A16BAE4B0C96138 /* TrackAnalyzer.swift */; };
+		F2844AF8CD9CE3EDF59399A4 /* TrackListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C04D0DD5DC56A4EFCFAC81 /* TrackListView.swift */; };
+		F46286D6B8B4E77E4560AA21 /* TempoRampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7397B7F80B6EF48C7A51644 /* TempoRampTests.swift */; };
+		FB63E5B639CAF92D8FBE4552 /* BandSplitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A7903F79675F60EBD07622 /* BandSplitter.swift */; };
+		FCF526A3A83CDF5BE3ADB427 /* AnalysisCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A31FC25A43100580E58C63 /* AnalysisCache.swift */; };
+		FD09EDE8E1C5A52CFC2CCCC0 /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE283EAB27E1D949A39979A /* NowPlayingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B56A0A40BFB5E5A037D802C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A548F4DF2AAFE1D4336536B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9741CFF4EAF3D8BE71F1E884;
+			remoteInfo = SeamlessTransitions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0368D21C3A16BAE4B0C96138 /* TrackAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackAnalyzer.swift; sourceTree = "<group>"; };
+		0DB1C9BA27753A464BC0E599 /* SeamlessTransitionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeamlessTransitionsApp.swift; sourceTree = "<group>"; };
+		0F8D6DA345ABEB09F3919E41 /* TempoRamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoRamp.swift; sourceTree = "<group>"; };
+		160946AE2ACA40E767A9FE22 /* FolderAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderAccess.swift; sourceTree = "<group>"; };
+		2219F20E874C0F506B475000 /* TrackAnalyzerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackAnalyzerTests.swift; sourceTree = "<group>"; };
+		24A31FC25A43100580E58C63 /* AnalysisCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisCache.swift; sourceTree = "<group>"; };
+		3578CD4024D0665D40C945FF /* EngineBodyLimitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineBodyLimitTests.swift; sourceTree = "<group>"; };
+		3876BED11D4AFAF1C3C2E01D /* VarispeedResampler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarispeedResampler.swift; sourceTree = "<group>"; };
+		51A7346F7A2E7AF4779842FF /* SilenceDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilenceDetector.swift; sourceTree = "<group>"; };
+		5315BA215A98FD0B4AF2AA50 /* EngineTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineTypes.swift; sourceTree = "<group>"; };
+		60CC8B054A6189EA78DF45E7 /* SilenceDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilenceDetectorTests.swift; sourceTree = "<group>"; };
+		62B3E86FFFBCCEA7CBE70E52 /* PlaybackEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackEngine.swift; sourceTree = "<group>"; };
+		64A7903F79675F60EBD07622 /* BandSplitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandSplitter.swift; sourceTree = "<group>"; };
+		64D32D2AEB046B4214EC5EF6 /* SeamlessTransitions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SeamlessTransitions.entitlements; sourceTree = "<group>"; };
+		65125E463055030F02EC7EEF /* AnalysisCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisCacheTests.swift; sourceTree = "<group>"; };
+		668A1E4F128F936F5CDDD191 /* SettingsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBar.swift; sourceTree = "<group>"; };
+		6A1B16FC72ABCD86528BF6D4 /* PlaybackEngine+Ramps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaybackEngine+Ramps.swift"; sourceTree = "<group>"; };
+		6F32743879FBA37AB1D069DA /* BeatAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatAnalyzer.swift; sourceTree = "<group>"; };
+		703C4C128F0BB5802DD3365B /* OnsetEnvelope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnsetEnvelope.swift; sourceTree = "<group>"; };
+		713014320529EB7D1AC70449 /* SeamlessTransitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeamlessTransitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A150AFD42383FA703825FC /* TransitionBaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBaker.swift; sourceTree = "<group>"; };
+		750E52F5DEBADD407F2753D1 /* MetadataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataLoader.swift; sourceTree = "<group>"; };
+		7713349EDB08D4EE49AE1057 /* BeatAnalyzerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatAnalyzerTests.swift; sourceTree = "<group>"; };
+		86E9C75E602801C7CDDF08C9 /* PlayOrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOrderTests.swift; sourceTree = "<group>"; };
+		8D95593651C711DE3B9FC73E /* TempoEstimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoEstimator.swift; sourceTree = "<group>"; };
+		91AD05767A8527ACE139136D /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		9B88BD28BC821DF0B46B5B99 /* PlayOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayOrder.swift; sourceTree = "<group>"; };
+		9E84C544E639373D48C6DFD3 /* FolderScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderScanner.swift; sourceTree = "<group>"; };
+		A5D670C93D866EA487947C35 /* BeatInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatInfo.swift; sourceTree = "<group>"; };
+		A780F8E6C41B97998BC18F17 /* TransitionPlannerBakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionPlannerBakerTests.swift; sourceTree = "<group>"; };
+		A8C04D0DD5DC56A4EFCFAC81 /* TrackListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListView.swift; sourceTree = "<group>"; };
+		AAB8F8371541954DF5BD1AF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFE283EAB27E1D949A39979A /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
+		B17865F7F31C98DF36B41B2E /* SeamlessTransitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeamlessTransitionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41EDCC1E09E313C16474907 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		C083F2B6D5C8611A99EE8EC8 /* TransportBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportBar.swift; sourceTree = "<group>"; };
+		C22A8657B40879D5091C400C /* GapMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapMonitor.swift; sourceTree = "<group>"; };
+		C9BDFA5339CED68CAE714D1E /* TransitionPlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionPlanner.swift; sourceTree = "<group>"; };
+		D0BECAC583DD66B3EA6E9A4E /* VarispeedResamplerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarispeedResamplerTests.swift; sourceTree = "<group>"; };
+		D34D3D6B3C9CE32E7A3CCAD3 /* FolderScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderScannerTests.swift; sourceTree = "<group>"; };
+		D492156510E63B67E948EC6F /* PlaybackClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackClock.swift; sourceTree = "<group>"; };
+		D933F9E7CFBAD29490B417E2 /* TransitionEnvelopeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionEnvelopeTests.swift; sourceTree = "<group>"; };
+		DF786754C5F30131A4A1F882 /* TransitionEnvelope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionEnvelope.swift; sourceTree = "<group>"; };
+		E1F94608F4703E95D367EEEA /* BandSplitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandSplitterTests.swift; sourceTree = "<group>"; };
+		E5B57D14AD0D9CCD2A56969B /* TrimInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimInfo.swift; sourceTree = "<group>"; };
+		E7397B7F80B6EF48C7A51644 /* TempoRampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoRampTests.swift; sourceTree = "<group>"; };
+		E9FDE18537C8947E592481B6 /* BeatTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatTracker.swift; sourceTree = "<group>"; };
+		EA6A10F8412BD2C7DD965E24 /* TestAudioFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAudioFactory.swift; sourceTree = "<group>"; };
+		F0C955FD6404D4CCAA1D9FE0 /* PlaybackEngine+Transport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaybackEngine+Transport.swift"; sourceTree = "<group>"; };
+		F9ABDA4A883662D5AEE40F1A /* Voice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice.swift; sourceTree = "<group>"; };
+		FB712190522700AD81BC0AF9 /* PlaybackEngine+Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaybackEngine+Transition.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0E54DC641004A01BC37DD9F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				713014320529EB7D1AC70449 /* SeamlessTransitions.app */,
+				B17865F7F31C98DF36B41B2E /* SeamlessTransitionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12620B1B68078C88168E0B0D /* Playback */ = {
+			isa = PBXGroup;
+			children = (
+				64A7903F79675F60EBD07622 /* BandSplitter.swift */,
+				5315BA215A98FD0B4AF2AA50 /* EngineTypes.swift */,
+				C22A8657B40879D5091C400C /* GapMonitor.swift */,
+				D492156510E63B67E948EC6F /* PlaybackClock.swift */,
+				62B3E86FFFBCCEA7CBE70E52 /* PlaybackEngine.swift */,
+				6A1B16FC72ABCD86528BF6D4 /* PlaybackEngine+Ramps.swift */,
+				FB712190522700AD81BC0AF9 /* PlaybackEngine+Transition.swift */,
+				F0C955FD6404D4CCAA1D9FE0 /* PlaybackEngine+Transport.swift */,
+				9B88BD28BC821DF0B46B5B99 /* PlayOrder.swift */,
+				0F8D6DA345ABEB09F3919E41 /* TempoRamp.swift */,
+				74A150AFD42383FA703825FC /* TransitionBaker.swift */,
+				DF786754C5F30131A4A1F882 /* TransitionEnvelope.swift */,
+				C9BDFA5339CED68CAE714D1E /* TransitionPlanner.swift */,
+				3876BED11D4AFAF1C3C2E01D /* VarispeedResampler.swift */,
+				F9ABDA4A883662D5AEE40F1A /* Voice.swift */,
+			);
+			path = Playback;
+			sourceTree = "<group>";
+		};
+		76F60DFF94FE09B6755D99D5 /* SeamlessTransitionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				65125E463055030F02EC7EEF /* AnalysisCacheTests.swift */,
+				E1F94608F4703E95D367EEEA /* BandSplitterTests.swift */,
+				7713349EDB08D4EE49AE1057 /* BeatAnalyzerTests.swift */,
+				3578CD4024D0665D40C945FF /* EngineBodyLimitTests.swift */,
+				D34D3D6B3C9CE32E7A3CCAD3 /* FolderScannerTests.swift */,
+				86E9C75E602801C7CDDF08C9 /* PlayOrderTests.swift */,
+				60CC8B054A6189EA78DF45E7 /* SilenceDetectorTests.swift */,
+				E7397B7F80B6EF48C7A51644 /* TempoRampTests.swift */,
+				EA6A10F8412BD2C7DD965E24 /* TestAudioFactory.swift */,
+				2219F20E874C0F506B475000 /* TrackAnalyzerTests.swift */,
+				D933F9E7CFBAD29490B417E2 /* TransitionEnvelopeTests.swift */,
+				A780F8E6C41B97998BC18F17 /* TransitionPlannerBakerTests.swift */,
+				D0BECAC583DD66B3EA6E9A4E /* VarispeedResamplerTests.swift */,
+			);
+			path = SeamlessTransitionsTests;
+			sourceTree = "<group>";
+		};
+		8F83A03C60C6E764FD4422D5 /* SeamlessTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				F545382FD437405B12B1C6CD /* Analysis */,
+				9644554CDA455CA9F749BBEF /* App */,
+				C82E1E5300B2392628D15C86 /* Library */,
+				BBA9E4331E3190E33AF7B1F5 /* Model */,
+				12620B1B68078C88168E0B0D /* Playback */,
+				9B05CC9885F5CE8FB61E74D7 /* UI */,
+			);
+			path = SeamlessTransitions;
+			sourceTree = "<group>";
+		};
+		9644554CDA455CA9F749BBEF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				64D32D2AEB046B4214EC5EF6 /* SeamlessTransitions.entitlements */,
+				0DB1C9BA27753A464BC0E599 /* SeamlessTransitionsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9B05CC9885F5CE8FB61E74D7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AAB8F8371541954DF5BD1AF8 /* ContentView.swift */,
+				AFE283EAB27E1D949A39979A /* NowPlayingView.swift */,
+				B41EDCC1E09E313C16474907 /* PlayerViewModel.swift */,
+				668A1E4F128F936F5CDDD191 /* SettingsBar.swift */,
+				A8C04D0DD5DC56A4EFCFAC81 /* TrackListView.swift */,
+				C083F2B6D5C8611A99EE8EC8 /* TransportBar.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		BBA9E4331E3190E33AF7B1F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5D670C93D866EA487947C35 /* BeatInfo.swift */,
+				91AD05767A8527ACE139136D /* Track.swift */,
+				E5B57D14AD0D9CCD2A56969B /* TrimInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C82E1E5300B2392628D15C86 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				160946AE2ACA40E767A9FE22 /* FolderAccess.swift */,
+				9E84C544E639373D48C6DFD3 /* FolderScanner.swift */,
+				750E52F5DEBADD407F2753D1 /* MetadataLoader.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		E91E58A6719C0D13E8A28979 = {
+			isa = PBXGroup;
+			children = (
+				8F83A03C60C6E764FD4422D5 /* SeamlessTransitions */,
+				76F60DFF94FE09B6755D99D5 /* SeamlessTransitionsTests */,
+				0E54DC641004A01BC37DD9F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F545382FD437405B12B1C6CD /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				24A31FC25A43100580E58C63 /* AnalysisCache.swift */,
+				6F32743879FBA37AB1D069DA /* BeatAnalyzer.swift */,
+				E9FDE18537C8947E592481B6 /* BeatTracker.swift */,
+				703C4C128F0BB5802DD3365B /* OnsetEnvelope.swift */,
+				51A7346F7A2E7AF4779842FF /* SilenceDetector.swift */,
+				8D95593651C711DE3B9FC73E /* TempoEstimator.swift */,
+				0368D21C3A16BAE4B0C96138 /* TrackAnalyzer.swift */,
+			);
+			path = Analysis;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5774BD60CEF3695702D098D1 /* SeamlessTransitionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B1F950D28C01BC5EC2253B /* Build configuration list for PBXNativeTarget "SeamlessTransitionsTests" */;
+			buildPhases = (
+				0C5D8176ABE7270C0D616DA9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64B34B59A9819F45E6F07778 /* PBXTargetDependency */,
+			);
+			name = SeamlessTransitionsTests;
+			productName = SeamlessTransitionsTests;
+			productReference = B17865F7F31C98DF36B41B2E /* SeamlessTransitionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9741CFF4EAF3D8BE71F1E884 /* SeamlessTransitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 985FBC6EF04043E03526F5D3 /* Build configuration list for PBXNativeTarget "SeamlessTransitions" */;
+			buildPhases = (
+				02D0F1D55CB5CA17A88725FB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeamlessTransitions;
+			productName = SeamlessTransitions;
+			productReference = 713014320529EB7D1AC70449 /* SeamlessTransitions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A548F4DF2AAFE1D4336536B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5774BD60CEF3695702D098D1 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+					9741CFF4EAF3D8BE71F1E884 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = C683A979144C24B530558694 /* Build configuration list for PBXProject "SeamlessTransitions" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E91E58A6719C0D13E8A28979;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9741CFF4EAF3D8BE71F1E884 /* SeamlessTransitions */,
+				5774BD60CEF3695702D098D1 /* SeamlessTransitionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02D0F1D55CB5CA17A88725FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF526A3A83CDF5BE3ADB427 /* AnalysisCache.swift in Sources */,
+				FB63E5B639CAF92D8FBE4552 /* BandSplitter.swift in Sources */,
+				521BF79A073C23BC11549206 /* BeatAnalyzer.swift in Sources */,
+				D604C7E505CE15EDD2FA4922 /* BeatInfo.swift in Sources */,
+				AF08235FA9E11022690183F9 /* BeatTracker.swift in Sources */,
+				A99AC10464EC4B441E8D5A74 /* ContentView.swift in Sources */,
+				BA0FACDE21D7882D8BD0B9B0 /* EngineTypes.swift in Sources */,
+				2774E2B31472DCCC0763517D /* FolderAccess.swift in Sources */,
+				E18C093B468858E1916EDA03 /* FolderScanner.swift in Sources */,
+				25D6E986FDE271B764E8F385 /* GapMonitor.swift in Sources */,
+				C6DEAD7A13E175DAFFC2E9B1 /* MetadataLoader.swift in Sources */,
+				FD09EDE8E1C5A52CFC2CCCC0 /* NowPlayingView.swift in Sources */,
+				A89396933E45EEA33E7A4EF4 /* OnsetEnvelope.swift in Sources */,
+				C58F2E46C442BE561980E1D0 /* PlayOrder.swift in Sources */,
+				CA55A3ED5CBBB97573F4C243 /* PlaybackClock.swift in Sources */,
+				4480C79D072918BFF3FDF43D /* PlaybackEngine+Ramps.swift in Sources */,
+				EB16F04B3F8CF160C2F52372 /* PlaybackEngine+Transition.swift in Sources */,
+				DF8F7BBC9DFCEAC1419A5C11 /* PlaybackEngine+Transport.swift in Sources */,
+				5B5CF4A536FD9B8E6175F4A6 /* PlaybackEngine.swift in Sources */,
+				E0B29D47E16F0A4E468D9880 /* PlayerViewModel.swift in Sources */,
+				9E494A77D65C5951DD11B333 /* SeamlessTransitionsApp.swift in Sources */,
+				6E7C409E93AE314132BD3DE9 /* SettingsBar.swift in Sources */,
+				19D1213538E3C6A5FD095404 /* SilenceDetector.swift in Sources */,
+				79E108440E6C5C3C873BC994 /* TempoEstimator.swift in Sources */,
+				7134D38C7AE1EEF8C108073F /* TempoRamp.swift in Sources */,
+				3EDD0DA36DF6C1DF677239E4 /* Track.swift in Sources */,
+				F03CE82B00D5CE6D3A07880D /* TrackAnalyzer.swift in Sources */,
+				F2844AF8CD9CE3EDF59399A4 /* TrackListView.swift in Sources */,
+				810584A70E5B4DECE2D1394A /* TransitionBaker.swift in Sources */,
+				22C4FA65DBE582499824C9D6 /* TransitionEnvelope.swift in Sources */,
+				A5BD68C0180F3C42EFE3A23F /* TransitionPlanner.swift in Sources */,
+				8E7B09DC6581A2390E4B66CD /* TransportBar.swift in Sources */,
+				992B3F7879594EB125A004AD /* TrimInfo.swift in Sources */,
+				1A82DE0494A3925EF0963D45 /* VarispeedResampler.swift in Sources */,
+				C460F8B1C7FB004F5CB077A5 /* Voice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C5D8176ABE7270C0D616DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0910AD129708F85FFEA51F /* AnalysisCacheTests.swift in Sources */,
+				EF36F2D970016D0C2C7ED046 /* BandSplitterTests.swift in Sources */,
+				3EF782E1BEF941A0AEF55E85 /* BeatAnalyzerTests.swift in Sources */,
+				74069A1E7C51D6634DCC7B68 /* EngineBodyLimitTests.swift in Sources */,
+				5997FF98767E28489BEA3690 /* FolderScannerTests.swift in Sources */,
+				D74EDBAA4211A900ED2818AF /* PlayOrderTests.swift in Sources */,
+				62E084C023CB91521DCB75D5 /* SilenceDetectorTests.swift in Sources */,
+				F46286D6B8B4E77E4560AA21 /* TempoRampTests.swift in Sources */,
+				AD315C1799690CDF9555BB7A /* TestAudioFactory.swift in Sources */,
+				17B26FA88F680230F77205A1 /* TrackAnalyzerTests.swift in Sources */,
+				9826C124AE3F9EFC42C1659A /* TransitionEnvelopeTests.swift in Sources */,
+				CF0684A2BF4DB13AAEB93E5B /* TransitionPlannerBakerTests.swift in Sources */,
+				41A2574075DFE8488F4E82E9 /* VarispeedResamplerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64B34B59A9819F45E6F07778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9741CFF4EAF3D8BE71F1E884 /* SeamlessTransitions */;
+			targetProxy = 8B56A0A40BFB5E5A037D802C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13D0ECAA4032EE2B9C9B4DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugopaulista.SeamlessTransitionsTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeamlessTransitions.app/Contents/MacOS/SeamlessTransitions";
+			};
+			name = Release;
+		};
+		21719AB0AB3360ACBB17A78A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		38DC1DCDCF6392D52E1218B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugopaulista.SeamlessTransitionsTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeamlessTransitions.app/Contents/MacOS/SeamlessTransitions";
+			};
+			name = Debug;
+		};
+		5D22E6D3664C6BD0C3640B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SeamlessTransitions/App/SeamlessTransitions.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Seamless Transitions";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugopaulista.SeamlessTransitions;
+				PRODUCT_NAME = SeamlessTransitions;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		68EF7F63ED16702BB8F766DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SeamlessTransitions/App/SeamlessTransitions.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Seamless Transitions";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugopaulista.SeamlessTransitions;
+				PRODUCT_NAME = SeamlessTransitions;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Debug;
+		};
+		FF87EC5CB110DE581B98762A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		985FBC6EF04043E03526F5D3 /* Build configuration list for PBXNativeTarget "SeamlessTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EF7F63ED16702BB8F766DF /* Debug */,
+				5D22E6D3664C6BD0C3640B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C683A979144C24B530558694 /* Build configuration list for PBXProject "SeamlessTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21719AB0AB3360ACBB17A78A /* Debug */,
+				FF87EC5CB110DE581B98762A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E1B1F950D28C01BC5EC2253B /* Build configuration list for PBXNativeTarget "SeamlessTransitionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DC1DCDCF6392D52E1218B4 /* Debug */,
+				13D0ECAA4032EE2B9C9B4DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A548F4DF2AAFE1D4336536B /* Project object */;
+}

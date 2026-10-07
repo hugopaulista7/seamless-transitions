@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>B4943083-3456-402B-B695-404F1B982C8D</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B4943083-3456-402B-B695-404F1B982C8D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SeamlessTransitions project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SeamlessTransitions</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project SeamlessTransitions with scheme SeamlessTransitions</string>
+			<key>timeStartedRecording</key>
+			<real>813078427.98637199</real>
+			<key>timeStoppedRecording</key>
+			<real>813078431.35370302</real>
+			<key>title</key>
+			<string>Testing project SeamlessTransitions with scheme SeamlessTransitions</string>
+			<key>uniqueIdentifier</key>
+			<string>B4943083-3456-402B-B695-404F1B982C8D</string>
+		</dict>
+		<key>E534D99B-3EF6-4920-A088-EA5E1BE42023</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E534D99B-3EF6-4920-A088-EA5E1BE42023.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SeamlessTransitions project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SeamlessTransitions</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project SeamlessTransitions with scheme SeamlessTransitions</string>
+			<key>timeStartedRecording</key>
+			<real>813081264.54329896</real>
+			<key>timeStoppedRecording</key>
+			<real>813081267.11007905</real>
+			<key>title</key>
+			<string>Testing project SeamlessTransitions with scheme SeamlessTransitions</string>
+			<key>uniqueIdentifier</key>
+			<string>E534D99B-3EF6-4920-A088-EA5E1BE42023</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

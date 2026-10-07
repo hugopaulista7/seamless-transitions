@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'SeamlessTransitionsTests' in project 'SeamlessTransitions'
+➜ Explicit dependency on target 'SeamlessTransitions' in project 'SeamlessTransitions'
+Target 'SeamlessTransitions' in project 'SeamlessTransitions' (no dependencies)
